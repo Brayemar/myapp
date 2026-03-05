@@ -3,6 +3,9 @@ import Firstcomponent from './components/Firstcomponent';
 import Secondcomponent from './components/Secondcomponent';
 import Contactus from './components/Contactus';
 import Help from './components/Help';
+import Thirdcomponent from './components/Thirdcomponent';
+import Fourthcomponent from './components/Fourthcomponent';
+import Fifthcomponent from './components/Fifthcomponent';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         <Secondcomponent/>
         <Contactus/>
         <Help/>
+        <Thirdcomponent/>
+        <Fourthcomponent/>
+        <Fifthcomponent/>
     </div>
   );
 }
