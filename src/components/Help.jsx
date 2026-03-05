@@ -1,6 +1,6 @@
-const Fourthcomponent = () =>{
+const Help = () =>{
     return (
-        <div className="Fourthcomponent">
+        <div className="Help">
             <h1>Help</h1>
             <p>When life feels overwhelming or you’re facing a challenge you can’t solve alone, the most important step is reaching out. You don’t have to navigate it by yourself.
 
@@ -9,4 +9,4 @@ At our company, help is just a few clicks away. Their website is designed to mak
     )
 }
 
-export default Fourthcomponent;
+export default Help;

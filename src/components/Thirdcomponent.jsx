@@ -1,10 +1,15 @@
 const Thirdcomponent = () =>{
-return (
-    <div className="Thirdcomponent">
-        <h1>Contact Us</h1>
-        <p>For any inquiries or clarification, please reach us through: +254715326758 or +254710001235. You can also email us through: motomoto@gmail.com. On Instagram you can find us through @moto_moto this is the same username across all our platforms. Incase u r in any trobule be sure to reach out to us for assistance.</p>
-    </div>
-)
+    // Variable enables us to create dynamic websites. (It means the contents of the website will be changing over time.)
+    // Below we declare some varibles. Note: variables are usually declared just before the return statement in Reactjs.
+    let name = "Benson";
+    let age = 52;
+    let message = "I love programming"
+
+    return(
+        <div className="Thirdcomponent">
+
+        </div>
+    )
 }
 
 export default Thirdcomponent;

@@ -1,8 +1,8 @@
 import './App.css';
 import Firstcomponent from './components/Firstcomponent';
 import Secondcomponent from './components/Secondcomponent';
-import Thirdcomponent from './components/Thirdcomponent';
-import Fourthcomponent from './components/Fourthcomponent';
+import Contactus from './components/Contactus';
+import Help from './components/Help';
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
        {/* Below we render/display/show our components */}
         <Firstcomponent />
         <Secondcomponent/>
-        <Thirdcomponent/>
-        <Fourthcomponent/>
+        <Contactus/>
+        <Help/>
     </div>
   );
 }
@@ -26,3 +26,8 @@ export default App;
 // jsx
 
 // Create two other components i.e Contact us and Help components and style them with your own content. Render them on App.js component.
+
+// npm start => node package module
+// npx => node package execute
+
+// App.js is our root component 
