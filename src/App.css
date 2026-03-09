@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #0ca7c9;
+  background-color: #cfcc0e;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 20px;
+
 }
 
 .App-link {
@@ -53,4 +55,27 @@
 }
 .Fourthcomponent{
   background-color: rgb(18, 151, 6);
+}
+.Notfound{
+  font-size: 30px;
+  color: red;
+  font-weight: 90;
+}
+nav{
+  padding:30px;
+  background-color: rgb(45, 172, 166);
+  height: 50px;
+}
+.navlinks{
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgb(195, 75, 32);
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.navlinks:hover{
+  background-color: burlywood;
+  color: white;
 }
